@@ -7,7 +7,6 @@ public class FizzBuzzDemo {
     public static final String FIZZ_BUZZ = "FizzBuzz";
 
     public String fizzBuzz(int i) {
-        String result = "";
         if (i % 3 == 0 && i % 5 == 0) {
             return FIZZ_BUZZ;
         } else if (i % 3 == 0) {
